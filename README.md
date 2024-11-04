@@ -93,6 +93,52 @@ Create side-by-side comparisons:
 </div>
 ```
 
+### Info Cards
+
+Display information with icons:
+
+```html
+<div class="info-card">
+    <div class="info-card-icon theme-blue">
+        <i class="fas fa-lightbulb"></i>
+    </div>
+    <div class="info-card-content">
+        <h3>Title</h3>
+        <p>Description text</p>
+    </div>
+</div>
+```
+
+### Key Points List
+
+Show important points with icons:
+
+```html
+<div class="key-points">
+    <h2>Title</h2>
+    <div class="key-point-item">
+        <i class="fas fa-check-circle"></i>
+        <span>Point text</span>
+    </div>
+</div>
+```
+
+### Data Highlight Box
+
+Highlight important data or information:
+
+```html
+<div class="data-highlight">
+    <div class="highlight-header">
+        <i class="fas fa-chart-pie"></i>
+        <h3>Title</h3>
+    </div>
+    <div class="highlight-content">
+        <p>Content text</p>
+    </div>
+</div>
+```
+
 ### Color Themes
 
 Apply different color themes to icons:
