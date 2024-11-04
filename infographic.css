@@ -285,6 +285,18 @@
 .theme-green { background: #10B981; color: white; }
 .theme-orange { background: #F59E0B; color: white; }
 .theme-purple { background: #8B5CF6; color: white; }
+.theme-pink { background: #EC4899; color: white; }
+.theme-teal { background: #14B8A6; color: white; }
+.theme-indigo { background: #6366F1; color: white; }
+.theme-red { background: #EF4444; color: white; }
+
+/* Gradient themes */
+.theme-gradient-blue { background: linear-gradient(135deg, #0066FF, #60A5FA); color: white; }
+.theme-gradient-green { background: linear-gradient(135deg, #10B981, #34D399); color: white; }
+.theme-gradient-orange { background: linear-gradient(135deg, #F59E0B, #FBBF24); color: white; }
+.theme-gradient-purple { background: linear-gradient(135deg, #8B5CF6, #A78BFA); color: white; }
+.theme-gradient-pink { background: linear-gradient(135deg, #EC4899, #F472B6); color: white; }
+.theme-gradient-rainbow { background: linear-gradient(135deg, #0066FF, #8B5CF6, #EC4899); color: white; }
 
 /* Responsive design */
 @media (max-width: 768px) {

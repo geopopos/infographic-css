@@ -149,10 +149,24 @@ A modern CSS library for creating beautiful, responsive infographics. This libra
 
 ### Color Theme Classes
 Apply these classes to `.info-icon`, `.info-card-icon`, or other icon containers:
-- `.theme-blue`: Blue theme (#0066FF)
-- `.theme-green`: Green theme (#10B981)
-- `.theme-orange`: Orange theme (#F59E0B)
-- `.theme-purple`: Purple theme (#8B5CF6)
+
+Solid Colors:
+- `.theme-blue`: Blue (#0066FF)
+- `.theme-green`: Green (#10B981)
+- `.theme-orange`: Orange (#F59E0B)
+- `.theme-purple`: Purple (#8B5CF6)
+- `.theme-pink`: Pink (#EC4899)
+- `.theme-teal`: Teal (#14B8A6)
+- `.theme-indigo`: Indigo (#6366F1)
+- `.theme-red`: Red (#EF4444)
+
+Gradient Themes:
+- `.theme-gradient-blue`: Blue gradient
+- `.theme-gradient-green`: Green gradient
+- `.theme-gradient-orange`: Orange gradient
+- `.theme-gradient-purple`: Purple gradient
+- `.theme-gradient-pink`: Pink gradient
+- `.theme-gradient-rainbow`: Multi-color gradient
 
 ### Responsive Breakpoints
 The library includes responsive design with breakpoints at:
