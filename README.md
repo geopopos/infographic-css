@@ -73,6 +73,26 @@ Show progress or comparisons:
 </div>
 ```
 
+### Comparison Section
+
+Create side-by-side comparisons:
+
+```html
+<div class="comparison-section">
+    <h2>Title</h2>
+    <div class="comparison-grid">
+        <div class="comparison-item">
+            <div class="comparison-value">Value 1</div>
+            <div class="comparison-label">Label 1</div>
+        </div>
+        <div class="comparison-item">
+            <div class="comparison-value">Value 2</div>
+            <div class="comparison-label">Label 2</div>
+        </div>
+    </div>
+</div>
+```
+
 ### Color Themes
 
 Apply different color themes to icons:
