@@ -19,7 +19,162 @@ A modern CSS library for creating beautiful, responsive infographics. This libra
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
 ```
 
-## Components
+## Components & Classes Reference
+
+### Base Container
+- `.infographic`: Main container for the infographic content
+  ```html
+  <div class="infographic">
+    <!-- Your content here -->
+  </div>
+  ```
+
+### Grid Layouts
+- `.info-grid`: Base grid container
+- `.grid-2`: Two-column grid
+- `.grid-3`: Three-column grid
+- `.grid-4`: Four-column grid
+  ```html
+  <div class="info-grid grid-2">...</div>
+  <div class="info-grid grid-3">...</div>
+  <div class="info-grid grid-4">...</div>
+  ```
+
+### Stat Boxes
+- `.stat-box`: Container for statistics
+- `.info-icon`: Icon container
+- `.stat-number`: Large number display
+- `.stat-label`: Description text
+  ```html
+  <div class="stat-box">
+    <div class="info-icon theme-blue">
+      <i class="fas fa-icon"></i>
+    </div>
+    <div class="stat-number">Value</div>
+    <div class="stat-label">Label</div>
+  </div>
+  ```
+
+### Timeline
+- `.timeline`: Main timeline container
+- `.timeline-item`: Individual timeline entry
+- `.timeline-content`: Content container for each entry
+  ```html
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Title</h3>
+        <p>Content</p>
+      </div>
+    </div>
+  </div>
+  ```
+
+### Progress & Comparison
+- `.progress-bar`: Container for progress bar
+- `.progress-fill`: Filled portion of progress bar
+- `.compare-card`: Card for comparison metrics
+- `.compare-title`: Title for comparison card
+  ```html
+  <div class="compare-card">
+    <div class="compare-title">Title</div>
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: 75%"></div>
+    </div>
+  </div>
+  ```
+
+### Comparison Section
+- `.comparison-section`: Main container
+- `.comparison-grid`: Grid for comparison items
+- `.comparison-item`: Individual comparison container
+- `.comparison-value`: Large value display
+- `.comparison-label`: Description label
+- `.comparison-divider`: Divider between items
+  ```html
+  <div class="comparison-section">
+    <div class="comparison-grid">
+      <div class="comparison-item">
+        <div class="comparison-value">Value</div>
+        <div class="comparison-label">Label</div>
+      </div>
+    </div>
+  </div>
+  ```
+
+### Info Cards
+- `.info-card`: Main card container
+- `.info-card-icon`: Icon container
+- `.info-card-content`: Text content area
+  ```html
+  <div class="info-card">
+    <div class="info-card-icon theme-blue">
+      <i class="fas fa-icon"></i>
+    </div>
+    <div class="info-card-content">
+      <h3>Title</h3>
+      <p>Content</p>
+    </div>
+  </div>
+  ```
+
+### Key Points List
+- `.key-points`: Container for key points
+- `.key-point-item`: Individual point item
+  ```html
+  <div class="key-points">
+    <h2>Title</h2>
+    <div class="key-point-item">
+      <i class="fas fa-check-circle"></i>
+      <span>Point text</span>
+    </div>
+  </div>
+  ```
+
+### Data Highlight Box
+- `.data-highlight`: Main container
+- `.highlight-header`: Header section
+- `.highlight-content`: Content section
+  ```html
+  <div class="data-highlight">
+    <div class="highlight-header">
+      <i class="fas fa-icon"></i>
+      <h3>Title</h3>
+    </div>
+    <div class="highlight-content">
+      <p>Content</p>
+    </div>
+  </div>
+  ```
+
+### Color Theme Classes
+Apply these classes to `.info-icon`, `.info-card-icon`, or other icon containers:
+- `.theme-blue`: Blue theme (#0066FF)
+- `.theme-green`: Green theme (#10B981)
+- `.theme-orange`: Orange theme (#F59E0B)
+- `.theme-purple`: Purple theme (#8B5CF6)
+
+### Responsive Breakpoints
+The library includes responsive design with breakpoints at:
+- 768px: Grid layouts switch to single column
+- Timeline adjusts for mobile viewing
+- Spacing and typography adjusts for smaller screens
+
+## Browser Support
+
+Supports all modern browsers:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## Examples
+
+See `demo.html` for complete usage examples.
+
+## License
+
+MIT License
 
 ### Grid Layouts
 
